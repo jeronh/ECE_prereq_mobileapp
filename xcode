@@ -1,0 +1,30 @@
+//I added my label as a outlet and my button as an action in the view controller file
+//Then added the text that it is changed to after the button is pressed
+
+class ViewController: UIViewController {
+
+
+
+    @IBOutlet weak var label: UILabel!
+
+    
+
+    @IBAction func button(_ sender: Any) {
+
+        label.text = "Congrats you pressed the button"
+
+    }
+
+    override func viewDidLoad() {
+
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view, typically from a nib.
+
+    }
+
+
+
+
+
+}
